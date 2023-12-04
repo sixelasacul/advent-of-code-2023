@@ -1,0 +1,28 @@
+{
+  // By Matt Pocock : https://twitter.com/mattpocockuk/status/1701619240686485799
+  "compilerOptions": {
+    "types": ["bun-types"],
+    // Base options
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+
+    // Strictness
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+
+    // Transpiling with TS
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+
+    // Code not in DOM
+    "lib": ["ES2022"],
+    "outDir": "dist"
+  },
+  "include": ["src"],
+}
