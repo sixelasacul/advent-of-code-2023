@@ -1,6 +1,6 @@
-import { readInput } from "../../utils/readInput.js";
+import { readDayInput } from "../../utils/readInput.js";
 
-const input = readInput('day1')
+const input = readDayInput(1)
 
 // Could be possible with only one regex, but it's more complex and less readable
 const FIRST_DIGIT_REGEX = /^[a-z]*(\d)/i

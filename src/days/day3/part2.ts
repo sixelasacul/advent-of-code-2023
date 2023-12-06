@@ -1,7 +1,7 @@
-import { readInput } from "../../utils/readInput.js";
+import { readDayInput } from "../../utils/readInput.js";
 import { getRanges } from "./common.js";
 
-const input = readInput('day3')
+const input = readDayInput(3)
 
 export function runPart2() {
   const length = input.indexOf('\n')

@@ -1,8 +1,8 @@
-import { readInput } from "../../utils/readInput.js";
+import { readDayInput } from "../../utils/readInput.js";
 import { getRange } from "./common.js";
 
 // Move input in index.ts, or in runDay?
-const input = readInput('day3')
+const input = readDayInput(3)
 
 // May be more efficient to look for all special characters, and find numbers
 // that are in that range (using roughly the same calculation)

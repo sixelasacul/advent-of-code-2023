@@ -1,7 +1,7 @@
-import { readInput } from "../../utils/readInput.js";
+import { readDayInput } from "../../utils/readInput.js";
 
 // Move input in index.ts, or in runDay?
-const input = readInput('day4')
+const input = readDayInput(4)
 const NUMBERS_REGEX = /(\d+[^:|\d]*)/gi
 
 // Would be nice with recursive regexes and backreferences but it's not that easy

@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "run-day": "bun run src/days/day$DAY/index.ts",
-    "run-days": "bun run src/days/index.ts"
+    "watch-day": "bun run --watch src/days/day$DAY/index.ts",
+    "run-days": "bun run src/days/index.ts",
+    "watch-days": "bun run --watch src/days/index.ts"
   },
   "devDependencies": {
     "@types/node": "^20.10.2",

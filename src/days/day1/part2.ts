@@ -1,6 +1,6 @@
-import { readInput } from "../../utils/readInput.js";
+import { readDayInput } from "../../utils/readInput.js";
 
-const input = readInput('day1')
+const input = readDayInput(1)
 
 const LETTER_DIGITS = ['one','two','three','four','five','six','seven','eight','nine']
 // Could be possible with only one regex, but it's more complex and less readable

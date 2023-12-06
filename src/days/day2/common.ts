@@ -1,5 +1,5 @@
-import { readInput } from '../../utils/readInput.js';
+import { readDayInput } from '../../utils/readInput.js';
 
-export const input = readInput('day2')
+export const input = readDayInput(2)
 
 export const GAME_REGEX = /(?:(?: (\d+) (\w+))[,;]?)/gi

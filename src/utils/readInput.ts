@@ -1,5 +1,6 @@
 import { readFileSync } from 'fs';
 
-export function readInput(day: string) {
-  return readFileSync(`./src/days/${day}/input.txt`).toString()
+export function readDayInput(day: number, part?: number) {
+  const partSuffix = part ? `-part${part}` : ''
+  return readFileSync(`./src/days/day${day}/input${partSuffix}.txt`).toString()
 }
