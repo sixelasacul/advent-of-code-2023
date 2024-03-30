@@ -2,4 +2,4 @@ import { runDay } from "../../utils/runDay.js";
 import { runPart1 } from "./part1.js";
 import { runPart2 } from "./part2.js";
 
-runDay(6, runPart1, runPart2)
+runDay(8, runPart1, runPart2)
